@@ -1,0 +1,49 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+body{
+    background-color: rgb(37, 37, 47);
+    color: rgb(195, 232, 189);
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.sub-head{
+    align-items: center;
+}
+.btn{
+    background-color: transparent;
+}
+
+a:link {
+  color: rgb(195, 232, 189);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(195, 232, 189);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+.btn{
+  border: none;
+}  
+
+.login-opt{
+  position: relative;
+  left: 25%;
+  right: 25%;
+}
+
+#logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
